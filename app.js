@@ -14,19 +14,19 @@ Take in the address that the user provided
         Use longitude and latitude to gather the forecast from the DarkSky's API
         Display this information to the user
 */
-geocode(address, (error, geoData) => {
+geocode(address, (error, {longitude, latitude, location} = {}) => {
     if (!address) {
         return console.log('Please provide a location.')
     }
     if (error) {
         return console.log('Error:', error)
     }
-    // Callback chaining
-    forecast(geoData.longitude, geoData.latitude, (error, forecastData) => {
+    
+    forecast(longitude, latitude, (error, forecastData) => {
         if (error) {
             return console.log('Error:', error)
         }
-        console.log(geoData.location)
+        console.log(location)
         console.log(forecastData)
     })
 })
