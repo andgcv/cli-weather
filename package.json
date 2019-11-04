@@ -1,7 +1,7 @@
 {
   "name": "cli-weather",
   "version": "1.0.0",
-  "description": "Simple command line application to request forecast data on a given location. Uses Mapbox's Geolocation API and DarkSky's Forecast API. Created with Node.js and its framework Express.",
+  "description": "Simple command line application to request forecast data on a given location. Uses Mapbox's Geolocation API and DarkSky's Forecast API. Created with Node.js.",
   "homepage": "https://github.com/andgcv/cli-weather.git#readme",
   "repository": {
     "type": "git",
