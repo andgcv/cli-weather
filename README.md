@@ -1,1 +1,1 @@
-# Better-Weather
+# CLI-Weather
