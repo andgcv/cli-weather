@@ -7,4 +7,4 @@ Simple command line application to request forecast data on a given location. Us
 > node app.js "San Francisco"
 
     * Location is required
-    * If the location is composed of more than one word, wrap it in quotes ("city name")
+    * If the location is composed of two or more words, wrap it in quotes ("city name")
