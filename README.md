@@ -3,7 +3,7 @@ Simple command line application to request forecast data on a given location. Us
 
 ## To get a forecast information on a given location, simply add the desired location like so:
 > node app.js Boston
-**OR**
 > node app.js "San Francisco"
+
     * Location is required
     * If the location is composed of more than one word, wrap it in quotes ("city name")
