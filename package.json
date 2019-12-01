@@ -9,11 +9,14 @@
   },
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "env-cmd -f ./.app-env node app.js"
   },
   "author": "André Gonçalves",
   "license": "MIT",
   "dependencies": {
     "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.0.1"
   }
 }
